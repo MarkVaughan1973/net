@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="NameAndType">
+  <Class Name="Core.Entity.Account">
+    <Position X="0.5" Y="0.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAEgAAAAAQAAAAEAIAAAAAAAAAAAgA=</HashCode>
+      <FileName>Entity\Account.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Core.Entity.Order">
+    <Position X="0.5" Y="4.25" Width="2.5" />
+    <AssociationLine Name="LineItems" Type="Core.Entity.LineItem" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="3" Y="4.688" />
+        <Point X="4.844" Y="4.688" />
+        <Point X="4.844" Y="2.824" />
+      </Path>
+      <MemberNameLabel ManuallyPlaced="true" ManuallySized="true">
+        <Position X="-1.275" Y="0.435" Height="0.182" Width="2.485" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAACAAAEAAAKQAAAAAAAAAABAAAAAAAAAEA=</HashCode>
+      <FileName>Entity\Order.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="OrderStatus" />
+      <Property Name="Account" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Property Name="LineItems" />
+    </ShowAsCollectionAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Core.Entity.LineItem">
+    <Position X="4.25" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAEgAAAAAAAAAAAAIAAAAAAgAAAAAA=</HashCode>
+      <FileName>Entity\LineItem.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Product" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Core.Entity.Product">
+    <Position X="7.25" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAQAEgAAABAQAAAAAAIAAIAAAAAAAAAA=</HashCode>
+      <FileName>Entity\Product.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Core.Entity.NormalGood">
+    <Position X="5.75" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAA=</HashCode>
+      <FileName>Entity\NormalGood.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Core.Entity.VeblenGood">
+    <Position X="7.75" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAA=</HashCode>
+      <FileName>Entity\VeblenGood.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="Core.Entity.OrderStatus">
+    <Position X="0.5" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAACAAAAAAAIAAAgIAAAAAAAAAAAAAACA=</HashCode>
+      <FileName>Entity\OrderStatus.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

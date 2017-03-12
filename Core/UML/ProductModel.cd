@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="NameAndType">
+  <Class Name="Core.DataAccess.Collection.CollectionProductModel">
+    <Position X="0.5" Y="3.5" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAIAAAAAAAAAAAAAAAAAEAAEAACAAABAACAAQ=</HashCode>
+      <FileName>DataAccess\Collection\CollectionProductModel.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Core.DataAccess.EntityFramework.EfProductModel">
+    <Position X="4.25" Y="3.5" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAAAEAAEAACAAAAAACAAQ=</HashCode>
+      <FileName>DataAccess\EntityFramework\EfProductModel.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Core.DataAccess.SQL.SqlProductModel">
+    <Position X="8" Y="3.5" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAgAAAAAAAAAAAEAAEAACAAAAAACAAQ=</HashCode>
+      <FileName>DataAccess\SQL\SqlProductModel.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Interface Name="Core.DataAccess.IProductModel">
+    <Position X="0.5" Y="0.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAAAEAAEAACAAAAAACAAQ=</HashCode>
+      <FileName>DataAccess\IProductModel.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
